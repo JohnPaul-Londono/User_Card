@@ -1,72 +1,64 @@
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
 
-.parentbox{
-    background-color: white;
-    border: lightgrey solid;
-    width: 600px;
-    min-height: 300px;
+}
+* {
     margin: 0 auto;
 }
-.bluebox{
-    width: 606px;
-    height: 81px;
-    background-color: plum;
-    position: relative;
-    right: 3px;
-    bottom: 3px;
+
+/* styles to apply to body */
+
+body {
+    justify-content: center;
+    align-items: center;
 }
 
-.relative1{
-    position: relative;
-    bottom: 40px;
-    left: 30px;
+
+
+.user-card {
+    width: 600px;
+    background-color: #fff;
+    border:  solid lightgrey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    /* overflow: hidden; */
 }
-.name{
-    position: relative;
-    bottom: 65px;
-    left: 20px;
+
+.card-header {
+    background-color: royalblue;
+    height: 81px;
+    margin-bottom: 70px;
 }
-#location{
-    position: relative;
-    display: flex;
-    bottom:60px;
-    gap: 10px;
-    left: 25px;
+
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 20px;
 }
-.img1{
-    width: auto;
-    height: 20px;
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 90px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
-.chi{
-    margin: 0px;
-}
+
 #negative{
     -webkit-filter:invert(100%);
     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
 } 
-#aboutme{
-    font-size: 12px;
-    position: relative;
-    left: 20px;
-    bottom: 45px;
-}
-.aboutme1{
-    margin-top:0px;
-    margin-bottom: 5px;
-}
-#gear{
-    display: flex;
-    position: relative;
-    gap: 10px;
-    left: 20px;
-    bottom: 30px;
-}
-.gear1{
-    width: auto;
+
+
+.icon-s {
     height: 20px;
+}
+
+a {
+    color: #3a81e6;
 }

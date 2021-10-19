@@ -8,21 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="parentbox">
-        <div class="bluebox"></div>
-        <div class="relative1"><img id="negative" src="./icons/user-circle.png" alt="Profile Image" width=75 height =75></div>
-        <h1 class="name">John Londono</h1>
-        <div id="location">
-            <img class="location1 img1" src="./icons/map-marker.png" alt="Location Marker">
-            <h2 class="location1 chi">Chicago</h2>
+    <!-- user info card -->
+    <div class="user-card">
+        <div class="card-header">
+            <img id="negative" src="icons/user-circle.png" alt="user-circle" class="avatar-m">
         </div>
-        <div id="aboutme">
-            <h2 class="aboutme1">Developer | Engineer | Problem Solver</h2>
-            <h2 class="aboutme1">Master of shadows and the Internet!</h2>
-        </div>
-        <div id="gear">
-            <img class="gear1" src="./icons/gear.png" alt="">
-            <a href="#">edit profile</a>
+        <div class="card-body">
+            <h1>John Londono</h1>
+            <h3>
+                <img src="icons/map-marker.png" alt="pin" class="icon-s"> 
+                Chicago
+            </h3>
+            <p>Developer | Engineer | Problem Solver<br>
+                Master of shadows and the Internet!</p>
+            <p>
+                <a href="#">
+                    <img src="icons/gear.png" alt="gear" class="icon-s"> 
+                        edit profile
+                </a>
+            </p>
         </div>
     </div>
 </body>
